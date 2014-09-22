@@ -5,162 +5,173 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>PerFly - The Android real time performance inspector</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/jquery.scrolly.min.js"></script>
-		<script src="js/jquery.poptrox.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,300,100' rel='stylesheet' type='text/css'>
-		<link rel="icon" 
-      		type="image/png" 
-      		href="images/perfly/perfly.png">
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-	</head>
-	<body>
+<head>
+	<title>PerFly - The Android real time performance inspector</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.scrolly.min.js"></script>
+	<script src="js/jquery.poptrox.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/init.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500,300,100' rel='stylesheet' type='text/css'>
+	<link rel="icon" 
+	type="image/png" 
+	href="images/perfly/perfly.png">
+	<noscript>
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</noscript>
 
-		<!-- Header -->
-			<section id="header">
-				<header class="logo">
-					<img src="images/perfly/perfly.png" alt="Perfly logo"><br>
-					<img src="images/perfly/perflytext.png" alt="Perfly text logo">
-					<p>The Android real time performance inspector</p>
-				</header>
-				<footer>
-					<a href="#banner" class="button style2 scrolly scrolly-centered">Start the tour</a>
-				</footer>
-			</section>
-		
-		<!-- Banner -->
-			<section id="banner">
-				<header>
-					<h2>PerFly is the new performance inspector for the Android platform</h2>
-				</header>
-				<p>PerFly allows the investigation of key values such as memory footprint, CPU usage and other key events of the Android/Dalvik platform, such as Garbage Collection, application status, interface orientation.</p>
-				<footer>
-					<a href="#first" class="button style2 scrolly">Read more</a>
-				</footer>
-			</section>
-		
-		<!-- Feature 1 -->
-			<article id="first" class="container box style1 right feature-0">
-				<a href="#" class="image right"><img src="images/perfly/server-2.png" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>DEAD simple</h2>
-					</header>
-					<p>Monitor any Android application wirelessly and without rooting you device.<br>
-						Just launch the server, use the barcode reader on the client app to connect et voilà, you can start monitoring - no other configuration is needed.</p>
-				</div>
-			</article>
+	<!-- Analytics -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-55025365-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+</head>
+<body>
+
+	<!-- Header -->
+	<section id="header">
+		<header class="logo">
+			<img src="images/perfly/perfly.png" alt="Perfly logo"><br>
+			<img src="images/perfly/perflytext.png" alt="Perfly text logo">
+			<p>The Android real time performance inspector</p>
+		</header>
+		<footer>
+			<a href="#banner" class="button style2 scrolly scrolly-centered">Start the tour</a>
+		</footer>
+	</section>
+
+	<!-- Banner -->
+	<section id="banner">
+		<header>
+			<h2>PerFly is the new performance inspector for the Android platform</h2>
+		</header>
+		<p>PerFly allows the investigation of key values such as memory footprint, CPU usage and other key events of the Android/Dalvik platform, such as Garbage Collection, application status, interface orientation.</p>
+		<footer>
+			<a href="#first" class="button style2 scrolly">Read more</a>
+		</footer>
+	</section>
+
+	<!-- Feature 1 -->
+	<article id="first" class="container box style1 right feature-0">
+		<a href="#" class="image right"><img src="images/perfly/server-2.png" alt="" /></a>
+		<div class="inner">
+			<header>
+				<h2>DEAD simple</h2>
+			</header>
+			<p>Monitor any Android application wirelessly and without rooting you device.<br>
+				Just launch the server, use the barcode reader on the client app to connect et voilà, you can start monitoring - no other configuration is needed.</p>
+			</div>
+		</article>
 		
 		<!-- Feature 2 -->
-			<article class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/perfly/server-1.png" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Built with technologies you love</h2>
-					</header>
-					<p>PerFly is based upon a stack of technologies you love, such as Vert.x, MQTT, AngularJS and it does not need any platform-dependent standalone application: its interface just runs in your browser.</p>
-				</div>
-			</article>
+		<article class="container box style1 left">
+			<a href="#" class="image fit"><img src="images/perfly/server-1.png" alt="" /></a>
+			<div class="inner">
+				<header>
+					<h2>Built with technologies you love</h2>
+				</header>
+				<p>PerFly is based upon a stack of technologies you love, such as Vert.x, MQTT, AngularJS and it does not need any platform-dependent standalone application: its interface just runs in your browser.</p>
+			</div>
+		</article>
 
 		<!-- Feature 3 -->
-			<article id="first" class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/perfly/server-0.png" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Material design inside</h2>
-					</header>
-					<p>PerFly has been designed from the ground up in respect of the most recent Material Design guidelines.</p>
-				</div>
-			</article>	
+		<article id="first" class="container box style1 right">
+			<a href="#" class="image fit"><img src="images/perfly/server-0.png" alt="" /></a>
+			<div class="inner">
+				<header>
+					<h2>Material design inside</h2>
+				</header>
+				<p>PerFly has been designed from the ground up in respect of the most recent Material Design guidelines.</p>
+			</div>
+		</article>	
 
 		<!-- Feature 4 -->
-			<article class="container box style1 left">
-				<a href="#" class="image right"><img src="images/perfly/client-0.png" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Get the app</h2>
-					</header>
-					<p><a href="https://play.google.com/store/apps/details?id=com.perfly.android&hl=en"><img src="http://developer.android.com/images/brand/en_app_rgb_wo_60.png"></img></a></p>
-				</div>
-			</article>				
+		<article class="container box style1 left">
+			<a href="#" class="image right"><img src="images/perfly/client-0.png" alt="" /></a>
+			<div class="inner">
+				<header>
+					<h2>Get the app</h2>
+				</header>
+				<p><a href="https://play.google.com/store/apps/details?id=com.perfly.android&hl=en"><img src="http://developer.android.com/images/brand/en_app_rgb_wo_60.png"></img></a></p>
+			</div>
+		</article>				
 		
 		<!-- Portfolio -->
-			<article class="container box style2">
-				<header>
-					<h2>Complete profiling</h2>
-					<div class="feature-description">
-						<p>PerFly allows you to inspect the following values and events:</p>
-						<h3>Memory</h3>
-						<ul>
-							<li>
-								total memory footprint
-							</li>
-							<li>
-								native memory footprint of the application
-							</li>
-							<li>
-								Dalvik memory footprint of the application
-							</li>
-							<li>
-								memory limit of the system&rsquo;s Dalvik machine
-							</li>
-						</ul>
-						<h3>CPU</h3>
-						<ul>
-							<li>
-								total CPU consumption
-							</li>
-							<li>
-								user&rsquo;s CPU consumption
-							</li>
-							<li>
-								kernel&rsquo;s CPU consumption
-							</li>
-						</ul>
-						<h3>Application events</h3>
-						<ul>
-							<li>
-								state
-							</li>
-							<li>
-								PID
-							</li>
-						</ul>
-						<h3>System events</h3>
-						<ul>
-							<li>
-								orientation
-							</li>
-						</ul>
-						<h3>Garbage-Collection events <small>(requires root access)</small></h3>
-						<ul>
-							<li>
-								GC_Reason
-							</li>
-							<li>
-								Amount_freed
-							</li>
-							<li>
-								Heap_stats
-							</li>
-							<li>
-								External_memory_status
-							</li>
-						</ul>
-					</div>
-				</header>
+		<article class="container box style2">
+			<header>
+				<h2>Complete profiling</h2>
+				<div class="feature-description">
+					<p>PerFly allows you to inspect the following values and events:</p>
+					<h3>Memory</h3>
+					<ul>
+						<li>
+							total memory footprint
+						</li>
+						<li>
+							native memory footprint of the application
+						</li>
+						<li>
+							Dalvik memory footprint of the application
+						</li>
+						<li>
+							memory limit of the system&rsquo;s Dalvik machine
+						</li>
+					</ul>
+					<h3>CPU</h3>
+					<ul>
+						<li>
+							total CPU consumption
+						</li>
+						<li>
+							user&rsquo;s CPU consumption
+						</li>
+						<li>
+							kernel&rsquo;s CPU consumption
+						</li>
+					</ul>
+					<h3>Application events</h3>
+					<ul>
+						<li>
+							state
+						</li>
+						<li>
+							PID
+						</li>
+					</ul>
+					<h3>System events</h3>
+					<ul>
+						<li>
+							orientation
+						</li>
+					</ul>
+					<h3>Garbage-Collection events <small>(requires root access)</small></h3>
+					<ul>
+						<li>
+							GC_Reason
+						</li>
+						<li>
+							Amount_freed
+						</li>
+						<li>
+							Heap_stats
+						</li>
+						<li>
+							External_memory_status
+						</li>
+					</ul>
+				</div>
+			</header>
 <!-- 				<div class="inner gallery">
 					<div class="row flush">
 						<div class="3u"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="Ad infinitum" /></a></div>
@@ -176,8 +187,8 @@
 					</div>
 				</div> -->
 			</article>
-		
-		<!-- Contact -->
+
+			<!-- Contact -->
 <!-- 			<article class="container box style3">
 				<header>
 					<h2>Nisl sed ultricies</h2>
@@ -202,8 +213,8 @@
 					</div>
 				</form>
 			</article> -->
-		
-		<!-- Generic -->
+
+			<!-- Generic -->
 		<!--
 			<article class="container box style3">
 				<header>
@@ -376,4 +387,4 @@
 		</section>
 
 	</body>
-</html>
+	</html>
