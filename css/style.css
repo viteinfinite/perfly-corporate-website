@@ -44,7 +44,7 @@
 
 	body,input,textarea,select
 	{
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
 		font-weight: 300;
@@ -77,11 +77,17 @@
 	{
 		font-size: 1em;
 		letter-spacing: 5px;
+		margin-top: 25px;
 	}
 		
 	strong, b
 	{
 		font-weight: 400;
+	}
+
+	small 
+	{
+		font-size: 50%;
 	}
 	
 	em, i
@@ -635,7 +641,7 @@
 
 						.box.style1.right .image img
 						{
-							right: 0;
+							left: 0;
 						}
 					
 					.box.style1.right .inner
