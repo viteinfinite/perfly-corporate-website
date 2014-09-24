@@ -89,6 +89,15 @@
 	{
 		font-size: 50%;
 	}
+
+	pre 
+	{
+		font-family: monospace;
+		background-color: #35b88f;
+		padding: 0 10px;
+		color: #fff;
+		margin: 5px;
+	}
 	
 	em, i
 	{
@@ -163,11 +172,9 @@
 			font-weight: 200;
 		}
 
-		#header header.logo h1 
+		header.highlight
 		{
-			text-transform: none;
-			font-weight: 400;
-			letter-spacing: 5px;
+			margin-bottom: 60px;
 		}
 		
 	footer
@@ -811,6 +818,12 @@
 		padding: 14em 0 14em 0;
 		cursor: default;
 	}
+
+	#header a#download-button.button
+	{
+		padding: 0 20px;
+		font-size: 80%;
+	}	
 	
 		#header header
 		{
@@ -823,6 +836,20 @@
 				font-weight: 600;
 				font-size: 2em;
 				letter-spacing: 10px;
+			}
+
+			#header header.logo h1 
+			{
+				text-transform: none;
+				font-weight: 400;
+				letter-spacing: 5px;
+			}
+
+			#header #download-button 
+			{
+				position: absolute;
+				top: 20px;
+				right: 20px;
 			}
 
 			#header header p
@@ -852,6 +879,18 @@
 			margin: 0;
 			width: 100%;
 		}
+
+			#header footer .platform-icons
+			{
+				color: #fff;
+			}
+
+			#header footer .platform-icons .icon
+			{
+				padding: 10px;
+				position: relative;
+				top: 10px;
+			}
 
 			#header footer:after
 			{

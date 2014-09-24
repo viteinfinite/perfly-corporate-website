@@ -44,9 +44,15 @@
 		<header class="logo">
 			<img src="images/perfly/perfly.png" alt="Perfly logo"><br>
 			<img src="images/perfly/perflytext.png" alt="Perfly text logo">
-			<p>The Android real time performance inspector</p>
+			<p>The Android real time performance inspector</p><br>
+			<a href="#getting-started" id="download-button" class="button style2 scrolly scrolly-centered">Download</a>
 		</header>
 		<footer>
+			<ul class="icons platform-icons">
+				<li class="icon fa-apple">&nbsp;</li>
+				<li class="icon fa-windows">&nbsp;</li>
+				<li class="icon fa-linux">&nbsp;</li>
+			</ul>
 			<a href="#banner" class="button style2 scrolly scrolly-centered">Start the tour</a>
 		</footer>
 	</section>
@@ -63,8 +69,8 @@
 	</section>
 
 	<!-- Feature 1 -->
-	<article id="first" class="container box style1 right feature-0">
-		<a href="#" class="image right"><img src="images/perfly/server-2.png" alt="" /></a>
+	<article id="first" class="container box style1 right feature-0 gallery">
+		<a href="images/perfly/server-2.png" class="image right"><img src="images/perfly/server-2.png" alt="" title="Real-time monitoring" /></a>
 		<div class="inner">
 			<header>
 				<h2>DEAD simple</h2>
@@ -75,8 +81,8 @@
 		</article>
 		
 		<!-- Feature 2 -->
-		<article class="container box style1 left">
-			<a href="#" class="image fit"><img src="images/perfly/server-1.png" alt="" /></a>
+		<article class="container box style1 left gallery">
+			<a href="images/perfly/server-1.png" class="image fit"><img src="images/perfly/server-1.png" alt="" title="Application launcher" /></a>
 			<div class="inner">
 				<header>
 					<h2>Built with technologies you love</h2>
@@ -86,8 +92,8 @@
 		</article>
 
 		<!-- Feature 3 -->
-		<article id="first" class="container box style1 right">
-			<a href="#" class="image fit"><img src="images/perfly/server-0.png" alt="" /></a>
+		<article id="first" class="container box style1 right gallery">
+			<a href="images/perfly/server-0.png" class="image fit"><img src="images/perfly/server-0.png" alt="" title="Device chooser"/></a>
 			<div class="inner">
 				<header>
 					<h2>Material design inside</h2>
@@ -98,7 +104,7 @@
 
 		<!-- Feature 4 -->
 		<article class="container box style1 left">
-			<a href="#" class="image right"><img src="images/perfly/client-0.png" alt="" /></a>
+			<a href="https://play.google.com/store/apps/details?id=com.perfly.android&hl=en" class="image right"><img src="images/perfly/client-0.png" alt="" title="Android application" /></a>
 			<div class="inner">
 				<header>
 					<h2>Get the app</h2>
@@ -107,10 +113,12 @@
 			</div>
 		</article>				
 		
-		<!-- Portfolio -->
-		<article class="container box style2">
+		<!-- Main features -->
+		<article class="container box style3">
 			<header>
 				<h2>Complete profiling</h2>
+			</header>
+			<section>
 				<div class="feature-description">
 					<p>PerFly allows you to inspect the following values and events:</p>
 					<h3>Memory</h3>
@@ -148,9 +156,6 @@
 						<li>
 							PID
 						</li>
-					</ul>
-					<h3>System events</h3>
-					<ul>
 						<li>
 							orientation
 						</li>
@@ -171,8 +176,54 @@
 						</li>
 					</ul>
 				</div>
+			</section>
+		</article>
+
+		<!-- Howto -->
+		<article id="getting-started" class="container box style3">
+			<header class="highlight">
+				<section>
+					<a href="http://perfly-mirror-1.s3.amazonaws.com/stable/perfly-vertx-0.1.0.zip" class="button style1">Download Perf.ly</a>
+				</section>
 			</header>
-<!-- 				<div class="inner gallery">
+			<header>
+				<h2>Getting started</h2>
+			</header>
+			<section>
+				<header>
+					<h3>Pre-requisites</h3>
+				</header>
+				<ul>
+					<li>
+						Install <a href="http://mosquitto.org/download/">Mosquitto</a> on your server
+					</li>					
+					<li>
+						Install the <a href="https://play.google.com/store/apps/details?id=com.perfly.android&hl=en">perf.ly client app</a> on your device from the Google Play Store.
+					</li>
+				</ul>
+			</section>
+
+			<section>
+				<header>
+					<h3>Install the Perf.ly server</h3>
+				</header>
+				<ul>
+					<li>
+						Get the Perf.ly server <a href="http://perfly-mirror-1.s3.amazonaws.com/stable/perfly-vertx-0.1.0.zip">here</a> 
+					</li>
+					<li>
+						Launch Mosquitto <small>(procedure may vary depending on your platform)</small>
+					</li>
+					<li>
+						Launch Perf.ly
+						<pre class="console">vertx runZip perfly-&lt;version&gt;.zip</pre>
+					</li>
+				</ul>
+			</section>
+
+		</article>	
+<!-- 			</header>
+ 				<div class="inner gallery">
 					<div class="row flush">
 						<div class="3u"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="Ad infinitum" /></a></div>
 						<div class="3u"><a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="Dressed in Clarity" /></a></div>
@@ -185,11 +236,12 @@
 						<div class="3u"><a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" alt="" title="History was made here" /></a></div>
 						<div class="3u"><a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" alt="" title="People come and go and walk away" /></a></div>
 					</div>
-				</div> -->
-			</article>
+				</div> 
+			</article> -->
 
 			<!-- Contact -->
-<!-- 			<article class="container box style3">
+			<!--
+ 			<article class="container box style3">
 				<header>
 					<h2>Nisl sed ultricies</h2>
 					<p>Diam dignissim lectus eu ornare volutpat orci.</p>
@@ -215,7 +267,7 @@
 			</article> -->
 
 			<!-- Generic -->
-		<!--
+			<!--
 			<article class="container box style3">
 				<header>
 					<h2>Generic Box</h2>
@@ -372,6 +424,11 @@
 		-->
 		
 		<section id="footer">
+			<ul class="icons">
+				<li><a href="http://twitter.com/_mboudraa" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="http://github.com/mboudraa/perfly-vertx" class="icon fa-github"><span class="label">GitHub</span></a></li>
+				<li><a href="https://play.google.com/store/apps/details?id=com.perfly.android" class="icon fa-android"><span class="label">Google+</span></a></li>
+			</ul>			
 			<div class="copyright">
 				<ul class="menu">
 					<li>&copy; PerFly. All rights reserved.</li>
