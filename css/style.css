@@ -97,6 +97,7 @@
 		padding: 0 10px;
 		color: #fff;
 		margin: 5px;
+		overflow: scroll;
 	}
 	
 	em, i
